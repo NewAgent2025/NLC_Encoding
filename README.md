@@ -17,170 +17,106 @@ This is a project I worked on after trying many methods to compress or encode fi
 
 ---
 
-# Everything I Know About Trying To Compress/Encode Data To A Smaller Size
-
-This document covers everything I tried over the past 2 years to compress or encode data to a smaller size.  
-It includes **all 34 methods**, why they were attempted, and why they were skipped.
-I Have Tested A Lot Of Methods And Most Likely More Then 34 Methods Which I Just Can't Remember Right Now But If I Do I'll Add Them
-
----
-
-## Method 1 – Adding Up Numbers
-
-Adding up numbers doesn’t work. Example:  
-
-- Hi = 34 + 9 = 43  
-- iH can be 43 as well.  
-
-Even with 2 numbers it’s impossible to decode back to normal. When encoding/compressing, you will have a lot of data.  
-
-- Example: 4+3 = 7, 5+2 = 7, 1+6 = 7 → multiple results, impossible to decode.  
-- Even using hashing like 1+6, 5+5, 6+9 = 2372 → hash cannot be undone.  
-
-**Skipped.**
-
----
-
-## Method 2 – Hashing Functions For Binary Code
-
-- Impossible to get data back.  
-- Brute force would take extremely long.  
-- Metadata doesn’t help.  
-
-**Skipped.**
-
----
-
-## Method 3 – Making Binary Code Shorter (64 bits)
-
-- Tried shortening all 64-bit sequences.  
-- 64 bits = 3 bytes, output was 6–8 bytes → bigger than normal.  
-
-**Skipped.**
-
----
-
-## Method 4 – Adding Binary Code Numbers To Decode Later
-
-- Same issue as adding numbers → impossible.  
-
-**Skipped.**
-
----
-
-## Method 5 – All Binary Codes Of 21 Bits In A Notepad
-
-- Couldn’t have short pointers even when updating code.  
-
-**Skipped.**
-
----
-
-## Method 6 – Procedural Generation
-
-- Idea: Binary code → seed for procedural generation.  
-- Example:  
-- 101010011111010101010101000100101011010101111000001010101010101010101010101011111111010010101 = 2378213123
 - Seems reversible but finding the exact seed impossible.  
 - Decoding fast, but number bigger than original data.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 7 – Hashing a File and Brute Force Recovery
+<details>
+<summary><strong>Method 7 – Hashing a File and Brute Force Recovery</strong></summary>
 
 - Impossible due to collisions of data.  
 - Data to recover would be huge.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 8 – Shorter Pointers With Big Data
+<details>
+<summary><strong>Method 8 – Shorter Pointers With Big Data</strong></summary>
 
 - Tried encoding zeros and ones as AB, BA, BB, AA.  
 - Cannot encode all sequences.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 9 – Binary Code as One Character
+<details>
+<summary><strong>Method 9 – Binary Code as One Character</strong></summary>
 
 - Example: 1 = A, 0 = AA, 10 = AAA  
 - Output would be massive (1 MB → 12 MB).  
 
 **Skipped.**
+</details>
 
----
-
-## Method 10 – Delta Encoding Positions
+<details>
+<summary><strong>Method 10 – Delta Encoding Positions</strong></summary>
 
 - Example positions: 1,32,31,23,12,315,43,64,5,234,234,478,5678,545,2,3265,4567,567,45  
 - Delta encoding → 1 -120, etc. → output bigger or same.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 11 – Word Encoding
+<details>
+<summary><strong>Method 11 – Word Encoding</strong></summary>
 
 - Example: Hello → Hel = 12, lo = 17  
 - Encoding with Unicode emojis, A-Z, a-z → output bigger.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 12 – Compress Data Inside QR Code
+<details>
+<summary><strong>Method 12 – Compress Data Inside QR Code</strong></summary>
 
 - Tried compressing copies of same data.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 13 – Uploading Online
+<details>
+<summary><strong>Method 13 – Uploading Online</strong></summary>
 
 - Skipped because fake and cheating.  
+</details>
 
----
-
-## Method 14 – Image With All Binary Code
+<details>
+<summary><strong>Method 14 – Image With All Binary Code</strong></summary>
 
 - Output bigger than normal.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 15 – New Base Encoding
+<details>
+<summary><strong>Method 15 – New Base Encoding</strong></summary>
 
 - Data not really changed.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 16 – Self-Updating Binary Code System
+<details>
+<summary><strong>Method 16 – Self-Updating Binary Code System</strong></summary>
 
 - Table got bigger, system no longer worked.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 17 – All Binary Code Inside 1 EXE
+<details>
+<summary><strong>Method 17 – All Binary Code Inside 1 EXE</strong></summary>
 
 - Pointers inside EXE → impossible to point to bigger data with short number.  
 - HEX encoding → same problem.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 18 – Adding Numbers To Compress
+<details>
+<summary><strong>Method 18 – Adding Numbers To Compress</strong></summary>
 
 - Example: 234,639 + 344,621 = 579,260  
 - Needed sum + middle + last numbers → output bigger.  
@@ -188,142 +124,143 @@ Even with 2 numbers it’s impossible to decode back to normal. When encoding/co
 - After: 5792604976 = 10 long → not effective  
 
 **Skipped.**
+</details>
 
----
-
-## Method 19 – Run Length Encoding
+<details>
+<summary><strong>Method 19 – Run Length Encoding</strong></summary>
 
 - Didn’t save space.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 20 – Deduplication Using Positions
+<details>
+<summary><strong>Method 20 – Deduplication Using Positions</strong></summary>
 
 - Position encoding problem → impossible.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 21 – Checksum / Fingerprint / Hashing
+<details>
+<summary><strong>Method 21 – Checksum / Fingerprint / Hashing</strong></summary>
 
 - Cannot reconstruct original file.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 22 – Character Count + Unique Hash
+<details>
+<summary><strong>Method 22 – Character Count + Unique Hash</strong></summary>
 
 - Example: 0 = 523, 1 = 1042, hash = ash45ru90sfdj08w34j53e48r09nfsdk843590  
 - Cannot decode.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 23 – Adding Data Inside Images
+<details>
+<summary><strong>Method 23 – Adding Data Inside Images</strong></summary>
 
 - Compression loses data.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 24 – Making Positions Into Small Numbers
+<details>
+<summary><strong>Method 24 – Making Positions Into Small Numbers</strong></summary>
 
 - Example: positions 1,5,8,11,14,17 → 1,2,2,2,1,2,1,2,2,2,1  
 - Encoding → sometimes wrong positions.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 25 – Only Encoding Used Characters
+<details>
+<summary><strong>Method 25 – Only Encoding Used Characters</strong></summary>
 
 - Metadata required → text could become bigger.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 26 – Binary Encoding 25 Bits, Short Codes
+<details>
+<summary><strong>Method 26 – Binary Encoding 25 Bits, Short Codes</strong></summary>
 
 - Saved used bits → replaced with short codes.  
 - Output bigger, metadata needed.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 27 – Crack File Using Few Bits
+<details>
+<summary><strong>Method 27 – Crack File Using Few Bits</strong></summary>
 
 - Example 4-bit sequences: 0000, 0001, etc.  
 - Output bigger, decoding impossible.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 28 – 4096-Bit Encoding / Lookup
+<details>
+<summary><strong>Method 28 – 4096-Bit Encoding / Lookup</strong></summary>
 
 - Tried encoding 4096 bits → metadata required, lookup table huge.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 29 – Encoding Binary Code To 94 Characters
+<details>
+<summary><strong>Method 29 – Encoding Binary Code To 94 Characters</strong></summary>
 
 - A-Z, a-z, 0-9, symbols → bytes look smaller but total size bigger.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 30 – Reencode 2 Bytes Per Chunk
+<details>
+<summary><strong>Method 30 – Reencode 2 Bytes Per Chunk</strong></summary>
 
 - Needed metadata → took lots of space.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 31 – Word Encoding + Hash/Procedural Generation
+<details>
+<summary><strong>Method 31 – Word Encoding + Hash/Procedural Generation</strong></summary>
 
 - Words saved + hash/seed → metadata required  
 - Typo or wrong sequence → decoding impossible.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 32 – EXE to Load Numbers/Binary Code
+<details>
+<summary><strong>Method 32 – EXE to Load Numbers/Binary Code</strong></summary>
 
 - Like KKrieg or DirectX procedural generation  
 - Did not reduce size.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 33 – EXEs With Binary Code For Decoding
+<details>
+<summary><strong>Method 33 – EXEs With Binary Code For Decoding</strong></summary>
 
 - Too many EXEs, too many 25-bit sequences → bigger output.  
 
 **Skipped.**
+</details>
 
----
-
-## Method 34 – Binary Encoding 25 Bits + Shorter Bits
+<details>
+<summary><strong>Method 34 – Binary Encoding 25 Bits + Shorter Bits</strong></summary>
 
 - Saved used bits → replaced with shorter bits  
 - Metadata required, decoding impossible  
 - Encoded file looks smaller, but cannot decode back.  
 
 **Skipped.**
+</details>
 
 ---
 
