@@ -90,9 +90,6 @@ Even with 2 numbers it’s impossible to decode back to normal. When encoding/co
 
 </details>
 
-**Skipped.**
-</details>
-
 <details>
 <summary><strong>Method 7 – Hashing a File and Brute Force Recovery</strong></summary>
 
