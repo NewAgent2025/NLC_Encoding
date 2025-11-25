@@ -14,7 +14,7 @@ It can **make any file into a smaller size using encoded output**. This works fo
 **Important:** To decode back to normal, you **must have a key code and the metadata**. Without the metadata, decoding is **useless and impossible**.  
 
 This is a project I worked on after trying many methods to compress or encode files to smaller sizes.
-#I Have Tested Many Methods Over The Years It Was One Of The Hardest Projects I Have Done
+# I Have Tested Many Methods Over The Years It Was One Of The Hardest Projects I Have Done
 ---
 
 - Seems reversible but finding the exact seed impossible.  
