@@ -21,6 +21,7 @@ This is a project I worked on after trying many methods to compress or encode fi
 
 This document covers everything I tried over the past 2 years to compress or encode data to a smaller size.  
 It includes **all 34 methods**, why they were attempted, and why they were skipped.
+I Have Tested A Lot Of Methods And Most Likely More Then 34 Methods Which I Just Can't Remember Right Now But If I Do I'll Add Them
 
 ---
 
