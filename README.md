@@ -97,7 +97,10 @@ Even with 2 numbers it’s impossible to decode back to normal. When encoding/co
 - Impossible due to collisions of data.  
 - Data to recover would be huge.  
 
-<details>
+**Skipped.**
+
+</details>
+
 <summary><strong>Method 8 – Shorter Pointers With Big Data</strong></summary>
 
 - Tried encoding zeros and ones as AB, BA, BB, AA.  
