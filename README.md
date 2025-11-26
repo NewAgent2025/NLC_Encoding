@@ -101,12 +101,15 @@ Even with 2 numbers it’s impossible to decode back to normal. When encoding/co
 
 </details>
 
+<details>
 <summary><strong>Method 8 – Shorter Pointers With Big Data</strong></summary>
 
 - Tried encoding zeros and ones as AB, BA, BB, AA.  
 - Cannot encode all sequences.  
 
+
 **Skipped.**
+
 </details>
 
 <details>
