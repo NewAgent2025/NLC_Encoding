@@ -18,9 +18,9 @@ This is a project I worked on after trying many methods to compress or encode fi
 ---
 
 - Seems reversible but finding the exact seed impossible.  
-- Decoding fast, but number bigger than original data.  
+- Decoding fast, but number bigger than original data.
+# Theses Are The Methods I Tried For Encoding/Compression Which Failed And Reasons Why
 <details>
-  # Theses Are The Methods I Tried For Encoding/Compression Which Failed And Reasons Why
 <summary><strong>Method 1 – Adding Up Numbers</strong></summary>
 
 Adding up numbers doesn’t work. Example:  
