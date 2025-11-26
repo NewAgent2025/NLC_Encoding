@@ -1,7 +1,10 @@
 # NLC Encoding/Decoding
 # NLC New Lossless Compression (NLC)
-**NLC Encoding/Decoding** is a program I have developed over the past **2 years** of hard work.  
-**This Is NOT COMPRESSION This Is Encoding There Are 2 Types Of Encoding 1: Encoding That Make Files Smaller Example H.256 For Videos And 2: Encoding That Makes Data Into Another Form But Doesn't Compress The Size Mine Is Option 2 MetaData And Key Code
+**NLC Encoding/Decoding** is a program I have developed over the past **2 years** of hard work. EXACTLY REMAKING THE SDCS By Jan Sloot THIS IS The REMAKE OF THE SLOOT DIGITAL CODING SYSTEM IT'S SELF EXACTLY AS IT ACTED FROM THE 1995 TO 1999s 
+This Is NOT COMPRESSION This Is Encoding There Are 2 Types Of Encoding
+1: Encoding That Make Files Smaller Example H.256 For Videos
+2: Encoding That Makes Data Into Another Form But Doesn't Compress The Size
+(NLC) Is Option 2 MetaData And Key Code
 It can **make any file into a smaller size using encoded output**. This works for:
 
 - Images  
