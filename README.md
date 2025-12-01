@@ -151,13 +151,8 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 13 – Uploading Online</strong></summary>
 
-- Skipped Because Fake And Cheating  
-</details>
-
-<details>
-<summary><strong>Method 14 – Image With All Binary Code</strong></summary>
+<summary><strong>Method 13 – Image With All Binary Code</strong></summary>
 
 - Output Bigger Than Normal  
 
@@ -165,7 +160,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 15 – New Base Encoding</strong></summary>
+<summary><strong>Method 14 – New Base Encoding</strong></summary>
 
 - Data Not Really Changed  
 
@@ -173,7 +168,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 16 – Self-Updating Binary Code System</strong></summary>
+<summary><strong>Method 15 – Self-Updating Binary Code System</strong></summary>
 
 - Table Got Bigger System No Longer Worked  
 
@@ -181,7 +176,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 17 – All Binary Code Inside 1 EXE</strong></summary>
+<summary><strong>Method 16 – All Binary Code Inside 1 EXE</strong></summary>
 
 - Pointers Inside EXE → Impossible To Point To Bigger Data With Short Number  
 - HEX Encoding → Same Problem  
@@ -190,7 +185,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 18 – Adding Numbers To Compress</strong></summary>
+<summary><strong>Method 17 – Adding Numbers To Compress</strong></summary>
 
 - Example: 234,639 + 344,621 = 579,260  
 - Needed Sum + Middle + Last Numbers → Output Bigger  
@@ -201,7 +196,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 19 – Run Length Encoding</strong></summary>
+<summary><strong>Method 18 – Run Length Encoding</strong></summary>
 
 - Didn’t Save Space  
 
@@ -209,7 +204,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 20 – Deduplication Using Positions</strong></summary>
+<summary><strong>Method 19 – Deduplication Using Positions</strong></summary>
 
 - Position Encoding Problem → Impossible  
 
@@ -217,7 +212,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 21 – Checksum / Fingerprint / Hashing</strong></summary>
+<summary><strong>Method 20 – Checksum / Fingerprint / Hashing</strong></summary>
 
 - Cannot Reconstruct Original File  
 
@@ -225,7 +220,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 22 – Character Count + Unique Hash</strong></summary>
+<summary><strong>Method 21 – Character Count + Unique Hash</strong></summary>
 
 - Example: 0 = 523 1 = 1042 Hash = Ash45ru90sfdj08w34j53e48r09nfsdk843590  
 - Cannot Decode  
@@ -234,7 +229,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 23 – Adding Data Inside Images</strong></summary>
+<summary><strong>Method 22 – Adding Data Inside Images</strong></summary>
 
 - Compression Loses Data  
 
@@ -242,7 +237,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 24 – Making Positions Into Small Numbers</strong></summary>
+<summary><strong>Method 23 – Making Positions Into Small Numbers</strong></summary>
 
 - Example: Positions 1,5,8,11,14,17 → 1,2,2,2,1,2,1,2,2,2,1  
 - Encoding → Sometimes Wrong Positions  
@@ -251,7 +246,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 25 – Only Encoding Used Characters</strong></summary>
+<summary><strong>Method 24 – Only Encoding Used Characters</strong></summary>
 
 - Metadata Required → Text Could Become Bigger  
 
@@ -268,7 +263,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 27 – Crack File Using Few Bits</strong></summary>
+<summary><strong>Method 26 – Crack File Using Few Bits</strong></summary>
 
 - Example 4-bit Sequences: 0000 0001 Etc  
 - Output Bigger Decoding Impossible  
@@ -277,7 +272,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 28 – 4096-Bit Encoding / Lookup</strong></summary>
+<summary><strong>Method 27 – 4096-Bit Encoding / Lookup</strong></summary>
 
 - Tried Encoding 4096 Bits → Metadata Required Lookup Table Huge  
 
@@ -285,7 +280,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 29 – Encoding Binary Code To 94 Characters</strong></summary>
+<summary><strong>Method 28 – Encoding Binary Code To 94 Characters</strong></summary>
 
 - A-Z A-z 0-9 Symbols → Bytes Look Smaller But Total Size Bigger  
 
@@ -293,7 +288,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 30 – Reencode 2 Bytes Per Chunk</strong></summary>
+<summary><strong>Method 29 – Reencode 2 Bytes Per Chunk</strong></summary>
 
 - Needed Metadata → Took Lots Of Space  
 
@@ -301,7 +296,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 31 – Word Encoding + Hash/Procedural Generation</strong></summary>
+<summary><strong>Method 30 – Word Encoding + Hash/Procedural Generation</strong></summary>
 
 - Words Saved + Hash/seed → Metadata Required  
 - Typo Or Wrong Sequence → Decoding Impossible  
@@ -310,7 +305,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 32 – EXE To Load Numbers/Binary Code</strong></summary>
+<summary><strong>Method 31 – EXE To Load Numbers/Binary Code</strong></summary>
 
 - Like KKrieg Or DirectX Procedural Generation  
 - Did Not Reduce Size  
@@ -319,7 +314,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 33 – EXEs With Binary Code For Decoding</strong></summary>
+<summary><strong>Method 32 – EXEs With Binary Code For Decoding</strong></summary>
 
 - Too Many EXEs Too Many 25-bit Sequences → Bigger Output  
 
@@ -327,7 +322,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 </details>
 
 <details>
-<summary><strong>Method 34 – Binary Encoding 25 Bits + Shorter Bits</strong></summary>
+<summary><strong>Method 33 – Binary Encoding 25 Bits + Shorter Bits</strong></summary>
 
 - Saved Used Bits → Replaced With Shorter Bits  
 - Metadata Required Decoding Impossible  
@@ -340,7 +335,7 @@ Even With 2 Numbers It’s Impossible To Decode Back To Normal When Encoding/com
 
 **Conclusion:**  
 
-After 2 Years And Testing More Then **34 Methods+** Almost All Of My Approaches Have Failed Most Failed Due To:
+After 2 Years And Testing More Then **33 Methods+** Almost All Of My Approaches Have Failed Most Failed Due To:
 
 - Metadata Requirements  
 - Output Bigger Than The Original  
