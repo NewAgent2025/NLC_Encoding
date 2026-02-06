@@ -5,12 +5,12 @@
     <td align="center">
       <img src="NL1005930C2_Detail_V4.png" alt="NL1005930C2 Detail" width="400" />
       <br />
-      <sub><b>1995 NL1005930C2 - First Patent Diagram</b></sub>
+      <sub><b>NL1005930C2 (1995) - First Patent Diagram</b></sub>
     </td>
     <td align="center">
       <img src="NL1009908C2_Encoding_Steps_In_Detail.png" alt="NL1009908C2 Encoding Steps" width="400" />
       <br />
-      <sub><b>1999 NL1009908C2 – 2nd Patent Diagram</b></sub>
+      <sub><b>NL1009908C2 (1999) – 2nd Patent Diagram</b></sub>
     </td>
   </tr>
 </table>
