@@ -1,5 +1,19 @@
 # NLE Encoding/Decoding
 # NLE New Lossless Encoding (NLE)
+<table>
+  <tr>
+    <td align="center">
+      <img src="NL1005930C2_Detail_V4.png" alt="NL1005930C2 Detail" width="400" />
+      <br />
+      <sub><b>1995 NL1005930C2 - First Patent Diagram</b></sub>
+    </td>
+    <td align="center">
+      <img src="NL1009908C2_Encoding_Steps_In_Detail.png" alt="NL1009908C2 Encoding Steps" width="400" />
+      <br />
+      <sub><b>1999 NL1009908C2 – 2nd Patent Diagram</b></sub>
+    </td>
+  </tr>
+</table>
 **NLE Encoding/Decoding** Is A Program I Have Developed Over The Past **2 Years** Of Hard Work EXACTLY REMAKING THE SDCS By Jan Sloot THIS IS The REMAKE OF THE SLOOT DIGITAL CODING SYSTEM IT'S SELF EXACTLY AS IT ACTED FROM THE 1995 TO 1999s 
 This Is NOT COMPRESSION This Is Encoding There Are 2 Types Of Encoding
 1: Encoding That Make Files Smaller Example H.256 For Videos
