@@ -19,7 +19,7 @@ This Is NOT COMPRESSION This Is Encoding There Are 2 Types Of Encoding
 1: Encoding That Make Files Smaller Example H.256 For Videos
 2: Encoding That Makes Data Into Another Form But Doesn't Compress The Size
 (NLE) Is Option 2 MetaData And Key Code
-It Can **make Any File Into A Smaller Size Using Encoded Output** This Works For:
+It Can **Make Any File Into A Smaller Size Using Encoded Output** This Works For:
 
 - Images  
 - Videos  
@@ -28,7 +28,7 @@ It Can **make Any File Into A Smaller Size Using Encoded Output** This Works For
 - ZIPs  
 - And More  
 
-**Important:** To Decode Back To Normal You **must Have A Key Code And The Metadata** Without The Metadata Decoding Is **useless And Impossible**  
+**Important:** To Decode Back To Normal You **must Have A Key Code And The Metadata** Without The Metadata Decoding Is **Useless And Impossible**  
 
 This Is A Project I Worked On After Trying Many Methods To Compress Or Encode Files To Smaller Sizes.
 # I Have Tested Many Methods Over The Years It Was One Of The Hardest Projects I Have Done
