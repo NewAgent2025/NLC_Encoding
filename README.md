@@ -14,6 +14,10 @@
     </td>
   </tr>
 </table>
+<h3>Live Discord And GitHub Status</h3>
+<div class="container">
+  <div class="Live_Discord_Status"><img src="http://keeleanfamily.com/Discord_User_Status?Username=Blitz&Status=Disturb&GitUsername=NewAgent2025&Page=NLC_Encoding" alt="Discord Status And GitHub" /></div>
+</div>
 **NLE Encoding/Decoding** Is A Program I Have Developed Over The Past **2 Years** Of Hard Work EXACTLY REMAKING THE SDCS By Jan Sloot THIS IS The REMAKE OF THE SLOOT DIGITAL CODING SYSTEM IT'S SELF EXACTLY AS IT ACTED FROM THE 1995 TO 1999s 
 This Is NOT COMPRESSION This Is Encoding There Are 2 Types Of Encoding
 1: Encoding That Make Files Smaller Example H.256 For Videos
